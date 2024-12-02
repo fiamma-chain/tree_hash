@@ -12,7 +12,7 @@ categories = ["cryptography::cryptocurrencies"]
 
 [dependencies]
 alloy-primitives = "0.8.0"
-ethereum_hashing = "0.7.0"
+ethereum_hashing = { git = "https://github.com/fiamma-chain/ethereum_hashing.git", branch = "support_riscv" }
 smallvec = "1.6.1"
 
 [dev-dependencies]
